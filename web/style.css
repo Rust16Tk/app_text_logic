@@ -24,8 +24,10 @@ body {
     cursor: pointer;
 }
 #location{
-    width: 100%;
+    width: 98.5%; /*проверить ширину ввода*/
     display: block;
     border: none;
     margin-top: 15px;
+
+    border-radius: 10px;
 }
