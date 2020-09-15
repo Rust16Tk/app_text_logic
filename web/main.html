@@ -14,5 +14,13 @@
     <button id="show">открыть файл</button>
     <button id="show">сохранить как</button>
     <button id="show">сохранить</button>
+
+    <script type="text/javascript">
+        async function display_app_text() {
+            let self = document.getElementById('location').value;
+            let res = await eel.text_open(self)();
+        }
+
+    </script>
 </body>
 </html>
